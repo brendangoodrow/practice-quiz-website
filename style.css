@@ -1,0 +1,27 @@
+* {
+  font-family: Arial, sans-serif;
+}
+#header {
+  background-color: #333;
+  height: 150px;
+  color: white;
+  text-align: center;
+}
+header {
+    font-size: 50px;
+}
+#home_button {
+  color: white; 
+}
+textarea#content {
+  width: 10%;
+  height: 30px;
+  resize: both;
+  overflow: auto;
+}
+footer {
+  text-align: center;
+  background-color: #333;
+  padding: 20px;
+  color: white;
+}
