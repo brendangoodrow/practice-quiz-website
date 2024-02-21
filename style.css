@@ -1,6 +1,9 @@
 * {
   font-family: Arial, sans-serif;
 }
+html {
+  height: 100%;
+}
 #header {
   background-color: #333;
   height: 150px;
@@ -19,9 +22,16 @@ textarea#content {
   resize: both;
   overflow: auto;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0; /* Remove default margin */
+}
 footer {
   text-align: center;
   background-color: #333;
   padding: 20px;
   color: white;
+  margin-top: auto;
 }
